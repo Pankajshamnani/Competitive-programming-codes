@@ -10,4 +10,6 @@ def gcd(a,b):  #time complexity->O(log(min(a,b)))
         return a
     return gcd(b,a%b)
 
+#math.gcd is faster than the above gcd function
+print(math.gcd(18,36))
 print(gcd(18,36))
